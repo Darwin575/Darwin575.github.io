@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <title>Log In or Create Account</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="login">
+    <h2>Login</h2>
+  
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username">
+      <label for="password">Password:</label>
+      <input type="password" id="password">
+  
+      <div class="login-buttons">
+        <button type="submit" id="loginButton">Log In</button>
+      </div>
+    </form>
+  
+    <form id="createAccountForm" class="hidden">
+      <h2>Create Account</h2>
+      <label for="username">Username:</label>
+      <input type="text" id="createUsername">
+      <label for="password">Password:</label>
+      <input type="password" id="createPassword">
+      <button type="submit" id="submitCreateAccount">Create Account</button>
+    </form>
+  </section>
+  <script src="login.js"></script>
+</body>
+</html>
